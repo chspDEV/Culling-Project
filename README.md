@@ -9,14 +9,13 @@ O objetivo é demonstrar visualmente e analisar a performance de cada técnica, 
 
 ## 🎯 Métodos de Culling Abordados
 
-* **View Frustum Culling:** O método padrão da Unity, onde objetos fora do campo de visão da câmera não são renderizados.
-* **[Nome do Método 2]:** Breve descrição de como funciona.
-* **[Nome do Método 3]:** Breve descrição de como funciona.
+* **Frustum Culling:** O método padrão da Unity, onde objetos fora do campo de visão da câmera não são renderizados.
+* **Occlusion Culling:** Método que não renderiza objetos ocultos mesmo no campo de visão.
 * *(Adicione mais métodos se houver)*
 
 ## 📸 Demonstração
 
-*(Recomendação: Grave um GIF ou tire screenshots mostrando os métodos em ação. Por exemplo, uma visão da câmera e uma visão da cena mostrando os objetos sendo ativados/desativados. Isso valoriza MUITO o projeto!)*
+
 
 ![Gif Demonstrativo](link-para-seu-gif-ou-imagem.gif)
 
@@ -27,23 +26,12 @@ O objetivo é demonstrar visualmente e analisar a performance de cada técnica, 
 
 ## ⚙️ Como Executar o Projeto
 
-**Pré-requisitos:**
-- Unity Hub
-- Unity (versão `[SUA VERSÃO DO UNITY]`, por exemplo: `2022.3.15f1`)
-
-**Passo a passo:**
-1. Clone este repositório: `git clone https://github.com/chspDEV/Culling-Project.git`
-2. Abra o Unity Hub, clique em "Open" -> "Add project from disk".
-3. Selecione a pasta clonada.
-4. O projeto será aberto na Unity. Para testar, abra a cena localizada em `Assets/Scenes/[NOME DA CENA]`.
-
+- Abra o Executavel "Estudos" e feche após a mensagem de TESTES CONCLUIDOS aparecer no canto superior esquerdo.
 ## 🚀 Como Testar
 
-- **[Instrução 1]:** (Ex: "Use as teclas 1, 2 e 3 para alternar entre os métodos de culling").
-- **[Instrução 2]:** (Ex: "Movimente a câmera com as teclas WASD para observar a otimização em tempo real").
 
 ## 📜 Licença
 
-Este projeto está sob a licença MIT. *(Se for outra, me avise para eu alterar!)*
+Este projeto está sob a licença MIT. 
 
 ---
