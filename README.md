@@ -11,7 +11,6 @@ O objetivo é demonstrar visualmente e analisar a performance de cada técnica, 
 
 * **Frustum Culling:** O método padrão da Unity, onde objetos fora do campo de visão da câmera não são renderizados.
 * **Occlusion Culling:** Método que não renderiza objetos ocultos mesmo no campo de visão.
-* *(Adicione mais métodos se houver)*
 
 ## 📸 Demonstração
 
